@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    cout << ((n % 2 != 0 && n < 50) ? "Impar y < 50" : "No cumple");
+    return 0;
+}
